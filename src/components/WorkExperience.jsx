@@ -1,27 +1,31 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { 
-  FaBriefcase, 
-  FaUniversity, 
-  FaChalkboardTeacher, 
-  FaPalette, 
+import {
+  FaBriefcase,
+  FaUniversity,
+  FaChalkboardTeacher,
+  FaPalette,
   FaCode,
   FaCalendarAlt,
   FaArrowRight,
   FaReact,
   FaNodeJs,
   FaPython,
-
+  FaJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaBootstrap,
   FaTools,
   FaGithub,
-  FaDocker
+  FaDatabase,
+  FaPhp,
+  FaGoogle
 } from 'react-icons/fa'
-import { 
+import {
   SiTensorflow,
   SiPostgresql,
   SiMongodb,
   SiExpress,
-  SiTypescript,
   SiOpenai,
   SiAdobephotoshop,
   SiAdobeillustrator,
@@ -36,7 +40,7 @@ function WorkExperience() {
       category: "Frontend Development",
       items: [
         { name: "React.js", icon: <FaReact />, proficiency: 90 },
-        { name: "TypeScript", icon: <SiTypescript />, proficiency: 85 },
+        { name: "JavaScript", icon: <FaJs />, proficiency: 85 },
         { name: "HTML/CSS", icon: <FaCode />, proficiency: 90 },
         { name: "Redux", icon: <FaCode />, proficiency: 85 }
       ]
@@ -46,7 +50,8 @@ function WorkExperience() {
       items: [
         { name: "Node.js", icon: <FaNodeJs />, proficiency: 88 },
         { name: "Express.js", icon: <SiExpress />, proficiency: 85 },
-        { name: "Python", icon: <FaPython />, proficiency: 85 },
+        { name: "PHP", icon: <FaPhp />, proficiency: 75 },
+
         { name: "RESTful APIs", icon: <FaCode />, proficiency: 90 }
       ]
     },
@@ -56,7 +61,8 @@ function WorkExperience() {
         { name: "PostgreSQL", icon: <SiPostgresql />, proficiency: 85 },
         { name: "MongoDB", icon: <SiMongodb />, proficiency: 80 },
         { name: "Git/GitHub", icon: <FaGithub />, proficiency: 90 },
-        { name: "Docker", icon: <FaDocker />, proficiency: 75 }
+        { name: "MySQL", icon: <FaDatabase />, proficiency: 80 }
+
       ]
     },
     {
@@ -86,7 +92,8 @@ function WorkExperience() {
         { name: "TensorFlow", icon: <SiTensorflow /> },
         { name: "Python", icon: <FaPython /> },
         { name: "YOLOv8", icon: <FaTools /> },
-        { name: "Jupyter", icon: <SiJupyter /> }
+        { name: "Google Colab", icon: <FaGoogle />, proficiency: 70 }
+
       ]
     },
     {
@@ -98,11 +105,12 @@ function WorkExperience() {
       description: "Developing dynamic and responsive web applications with React.js. My focus is on delivering seamless, user-friendly experiences while ensuring scalability and performance.",
       technologies: [
         { name: "React.js", icon: <FaReact /> },
-        { name: "TypeScript", icon: <SiTypescript /> },
-        { name: "Node.js", icon: <FaNodeJs /> },
-        { name: "MongoDB", icon: <SiMongodb /> },
+        { name: "JavaScript", icon: <FaJs />, proficiency: 85 },
+        { name: "HTML", icon: <FaHtml5 />, proficiency: 90 }
+        , { name: "CSS", icon: <FaCss3Alt />, proficiency: 85 }
+        , { name: "Bootstrap", icon: <FaBootstrap />, proficiency: 80 }
+        ,
         { name: "GitHub", icon: <FaGithub /> },
-        { name: "Docker", icon: <FaDocker /> }
       ]
     },
     {
@@ -156,8 +164,8 @@ function WorkExperience() {
                         <span className="tool-name">{tool.name}</span>
                       </div>
                       <div className="tool-progress">
-                        <div 
-                          className="progress-bar" 
+                        <div
+                          className="progress-bar"
                           style={{ width: `${tool.proficiency}%` }}
                         >
                           <span className="progress-label">{tool.proficiency}%</span>
@@ -190,7 +198,7 @@ function WorkExperience() {
                   </div>
                 </div>
                 <p className="experience-description">{exp.description}</p>
-                
+
                 {/* Technologies Used Section */}
                 <div className="technologies-used">
                   <h4 className="tech-title">Technologies Used</h4>

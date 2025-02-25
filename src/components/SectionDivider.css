@@ -3,7 +3,7 @@
   height: 100px;
   width: 100%;
   overflow: hidden;
-  background: #1c1c1c;
+  background: #000;
 }
 
 .divider-line {
@@ -15,9 +15,9 @@
   height: 2px;
   background: linear-gradient(90deg, 
     transparent,
-    #FF63474d,
-    #AF0404,
-    #FF63474d,
+    #4CAF504d,
+    #4CAF50,
+    #4CAF504d,
     transparent
   );
   display: flex;
@@ -29,7 +29,7 @@
 .divider-dot {
   width: 12px;
   height: 12px;
-  background: #FF6347;
+  background: #4CAF50;
   border-radius: 50%;
   position: relative;
   animation: pulse 2s ease-in-out infinite;
@@ -54,7 +54,7 @@
   top: 50%;
   width: 40%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #FF6347, transparent);
+  background: linear-gradient(90deg, transparent, #4CAF50, transparent);
   animation: borderFlow 3s linear infinite;
 }
 
@@ -75,7 +75,7 @@
   50% {
     transform: scale(1.5);
     opacity: 1;
-    box-shadow: 0 0 15px #FF634780;
+    box-shadow: 0 0 15px #4CAF5080;
   }
 }
 

@@ -10,7 +10,16 @@ function About() {
   const [currentRole, setCurrentRole] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
-  const roles = ['Software Developer', 'Educator', 'Graphic Designer', 'Technical Educator', 'Problem Solver'];
+  const roles = [
+    'Web Developer', 
+    'Full Stack Developer', 
+    'Software Developer', 
+    'Frontend Developer', 
+    'Backend Developer', 
+    'Problem Solver', 
+    'Technical Educator'
+  ];
+  
   const typingSpeed = 100; // Speed of typing
   const deletingSpeed = 50; // Speed of deleting
   const delayBetweenRoles = 2000; // Delay before starting to delete
@@ -49,17 +58,20 @@ function About() {
         <Row className="align-items-center">
           <Col lg={6} className="about-text">
             <h1 className="main-title">
-            Innovative Software Developer &  Educator
+            Passionate Full Stack Web Developer &  Web Developer 
             </h1>
             <div className="role-container">
               I am a <span className="animated-role">{displayText}</span>
               <span className="typing-cursor">|</span>
             </div>
             <p className="about-description">
-              Passionate <strong>Software Developer</strong>, <strong>Educator</strong>, and <strong>Graphic Designer</strong>,
-              dedicated to building innovative solutions, creating stunning designs, and sharing knowledge
-              to empower others.
-            </p>
+  Passionate <strong>Full Stack Developer</strong> with expertise in <strong>React.js</strong> and <strong>MERN Stack</strong>.  
+  Experienced in <strong>web development, database management, and problem-solving</strong>,  
+  with the ability to work on <strong>machine learning</strong> projects using <strong>YOLOv8</strong>.  
+  Dedicated to creating innovative solutions and sharing knowledge.
+</p>
+
+
 
             <div className="social-icons-container">
               <a href="https://www.facebook.com/share/18ggvQriGm/" target="_blank" rel="noopener noreferrer" className="social-icon">

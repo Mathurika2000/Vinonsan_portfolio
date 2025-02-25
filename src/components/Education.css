@@ -1,6 +1,6 @@
 .education-section {
   padding: 8rem 0;
-  background: #1c1c1c;
+  background: #000;
   min-height: 100vh;
   position: relative;
 }
@@ -14,14 +14,14 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background: linear-gradient(135deg, #FF4500, #AF0404);
+  background: linear-gradient(135deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .title-icon {
-  color: #FF4500;
+  color: #4CAF50;
   animation: rotate 4s linear infinite;
 }
 
@@ -39,10 +39,10 @@
   transform: translateX(-20px);
   animation: slideIn 0.5s ease forwards;
   position: relative;
-  background: #2020200d;
+  background: #4CAF500d;
   border-radius: 20px;
   padding: 2rem;
-  border: 1px solid rgba(255, 69, 0, 0.1);
+  border: 1px solid #4CAF501a;
 }
 
 .education-item:nth-child(even) {
@@ -61,14 +61,14 @@
 .education-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #2020201a, #AF04041a);
-  border: 3px solid #AF0404;
+  background: linear-gradient(135deg, hsla(0, 0%, 13%, 0.102), #4CAF501a);
+  border: 3px solid #4CAF50;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  color: #FF4500;
+  color: #4CAF50;
   position: relative;
   z-index: 2;
   transition: all 0.3s ease;
@@ -77,7 +77,7 @@
 .timeline-line {
   width: 3px;
   height: calc(100% + 5rem);
-  background: linear-gradient(to bottom, #202020 50%, #AF0404 50%);
+  background: linear-gradient(to bottom, #000 50%, #4CAF50 50%);
   background-size: 100% 20px;
   position: absolute;
   top: 80px;
@@ -86,8 +86,8 @@
 }
 
 .education-content {
-  background: #20202008;
-  border: 1px solid rgba(255, 69, 0, 0.2);
+  background: #00000008;
+  border: 1px solid #4CAF5033;
   border-radius: 15px;
   padding: 2.5rem;
   flex-grow: 1;
@@ -108,7 +108,7 @@
   color: #FFFFFF;
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #FF4500, #AF0404);
+  background: linear-gradient(135deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -124,11 +124,11 @@
 }
 
 .calendar-icon {
-  color: #AF0404;
+  color: #4CAF50;
 }
 
 .institution {
-  color: #FF4500;
+  color: #4CAF50;
   font-weight: 600;
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
@@ -149,15 +149,15 @@
 }
 
 .achievements {
-  background: linear-gradient(135deg, rgba(255, 69, 0, 0.05), rgba(175, 4, 4, 0.05));
+  background: linear-gradient(135deg, #4CAF500d, #156e180d);
   border-radius: 12px;
   padding: 2rem;
   margin-top: 2rem;
-  border: 1px solid rgba(255, 69, 0, 0.1);
+  border: 1px solid #4CAF501a;
 }
 
 .achievements h4 {
-  color: #FF4500;
+  color: #4CAF50;
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
   display: flex;
@@ -166,7 +166,7 @@
 }
 
 .achievement-icon {
-  color: #AF0404;
+  color: #4CAF50;
 }
 
 .achievements ul {
@@ -186,7 +186,7 @@
 
 .achievements li::before {
   content: '•';
-  color: #FF4500;
+  color: #4CAF50;
   position: absolute;
   left: 0;
   font-size: 1.5rem;
@@ -201,7 +201,7 @@
 .animated-dots span {
   width: 8px;
   height: 8px;
-  background: #AF0404;
+  background: #4CAF50;
   border-radius: 50%;
   animation: pulse 1.5s ease infinite;
 }
@@ -236,14 +236,14 @@
 /* Hover Effects */
 .education-item:hover .education-icon {
   transform: scale(1.1) rotate(10deg);
-  box-shadow: 0 0 30px rgba(255, 69, 0, 0.3);
-  border-color: #AF0404;
+  box-shadow: 0 0 30px #4CAF504d;
+  border-color: #4CAF50;
 }
 
 .education-item:hover .education-content {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(255, 69, 0, 0.1);
-  border-color: #FF4500;
+  box-shadow: 0 10px 30px #4CAF501a;
+  border-color: #4CAF50;
 }
 
 /* Stagger Animation */
