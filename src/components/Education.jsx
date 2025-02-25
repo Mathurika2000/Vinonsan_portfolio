@@ -30,20 +30,22 @@ function Education() {
       icon: <FaLaptopCode />,
       degree: "Diploma in Full Stack Development",
       institution: "Studyz Academy",
-      duration: "June 2024 - December 2024",
+      duration: "January 2024 - December 2024",
       description: "Advanced training in modern full-stack development technologies and frameworks"
     },
     {
       id: 4,
       icon: <FaCertificate />,
-      degree: "Diploma in Information Communication Technology",
+      degree: "Diploma in Information  Technology",
       institution: "ESOFT Metro Campus, Jaffna",
+      duration: "Auguest 2019 - February 2020",
       description: "Comprehensive training in ICT fundamentals and applications"
     },
     {
       id: 5,
       icon: <FaGraduationCap />,
       degree: "Diploma in English",
+      duration: "Auguest 2019 - February 2020",
       institution: "ESOFT Metro Campus, Jaffna",
       description: "Professional English language training program"
     },
@@ -52,13 +54,15 @@ function Education() {
       icon: <FaLaptopCode />,
       degree: "Diploma in Python Basics",
       institution: "University of Moratuwa",
+      duration: "2021 - Present",
       description: "Fundamental Python programming concepts and practices"
     },
     {
       id: 7,
       icon: <FaCertificate />,
       degree: "Professional Certificate in Full Stack Development",
-      institution: "University of Moratuwa",
+      institution: "University of Moratuwa",      
+      duration: "2021 - Present",
       description: "Comprehensive training in full-stack web development technologies"
     }
   ];
