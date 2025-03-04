@@ -1,6 +1,6 @@
 .policy-section {
   padding: 8rem 0;
-  background: #1c1c1c;
+  background: #000;
   min-height: 100vh;
   position: relative;
 }
@@ -9,8 +9,8 @@
   position: fixed;
   top: 2rem;
   left: 2rem;
-  background: #FF63471a;
-  border: 1px solid #FF634733;
+  background: #4CAF50;
+  border: 1px solid #156e18;
   color: #EEEEEE;
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
@@ -23,7 +23,7 @@
 }
 
 .back-button:hover {
-  background: #FF634733;
+  background: #156e1833;
   transform: translateX(-5px);
 }
 
@@ -43,7 +43,7 @@
 }
 
 .title-icon {
-  color: #FF4500;
+  color: #4CAF50;
   animation: rotate 4s linear infinite;
 }
 
@@ -56,13 +56,13 @@
   max-width: 800px;
   margin: 0 auto;
   background: rgba(238, 238, 238, 0.03);
-  border: 1px solid #FF634733;
+  border: 1px solid #4CAF5033;
   border-radius: 15px;
   padding: 2rem;
 }
 
 .last-updated {
-  color: #FF4500;
+  color: #4CAF50;
   font-size: 0.9rem;
   margin-bottom: 2rem;
   text-align: right;

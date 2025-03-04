@@ -1,6 +1,6 @@
 .skills-section {
   padding: 8rem 0;
-  background: #1c1c1c;
+  background: #000;
   min-height: 100vh;
   position: relative;
 }
@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background: linear-gradient(135deg, #FF4500, #FF6347);
+  background: linear-gradient(135deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -27,8 +27,8 @@
 .rotating-icon-wrapper {
   width: 70px;
   height: 70px;
-  background: rgba(255, 69, 0, 0.1);
-  border: 2px solid #FF4500;
+  background: #4CAF501a;
+  border: 2px solid #4CAF50;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -37,14 +37,14 @@
 }
 
 .rotating-icon {
-  color: #FF4500;
+  color: #4CAF50;
   font-size: 2rem;
   animation: rotateIcon 4s linear infinite;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -72,8 +72,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255, 69, 0, 0.1), rgba(255, 99, 71, 0.1));
-  border: 2px solid #FF4500;
+  background: linear-gradient(135deg, #4CAF501a, #156e181a);
+  border: 2px solid #4CAF50;
   transition: all 0.3s ease;
 }
 
@@ -81,7 +81,7 @@
   position: absolute;
   width: 95%;
   height: 95%;
-  background: #1c1c1c;
+  background: #000;
   border-radius: 18px;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@
   align-items: center;
   justify-content: center;
   font-size: 2.5rem;
-  background: linear-gradient(135deg, rgba(255, 69, 0, 0.1), rgba(255, 99, 71, 0.1));
+  background: linear-gradient(135deg, #4CAF501a, #156e181a);
   border-radius: 12px;
   transition: all 0.3s ease;
 }
@@ -108,14 +108,14 @@
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
-  background: linear-gradient(135deg, #FF4500, #FF6347);
+  background: linear-gradient(135deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .skill-percentage {
-  color: #FF4500;
+  color: #4CAF50;
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -123,7 +123,7 @@
 .progress-bar {
   width: 80%;
   height: 6px;
-  background: rgba(255, 69, 0, 0.1);
+  background: #4CAF501a;
   border-radius: 3px;
   overflow: hidden;
   position: relative;
@@ -134,7 +134,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  background: linear-gradient(90deg, #FF4500, #FF6347);
+  background: linear-gradient(90deg, #4CAF50, #156e18);
   border-radius: 3px;
   transition: width 1s ease;
 }
@@ -145,13 +145,13 @@
 }
 
 .skill-circle:hover .circle-progress {
-  box-shadow: 0 0 30px rgba(255, 69, 0, 0.2);
-  border-color: #FF6347;
+  box-shadow: 0 0 30px #4CAF5033;
+  border-color: #4CAF50;
 }
 
 .skill-circle:hover .skill-icon-wrapper {
   transform: rotate(10deg) scale(1.1);
-  background: linear-gradient(135deg, rgba(255, 69, 0, 0.2), rgba(255, 99, 71, 0.2));
+  background: linear-gradient(135deg, #4CAF5033, #156e1833);
 }
 
 /* Animations */
@@ -227,15 +227,15 @@
 /* Add these new styles for teaching skills */
 .teaching-skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .teaching-skill-card {
-  background: rgba(238, 238, 238, 0.03);
-  border: 1px solid rgba(175, 4, 4, 0.2);
+  background: #00000008;
+  border: 1px solid #4CAF5033;
   border-radius: 15px;
   padding: 1.5rem;
   display: flex;
@@ -248,13 +248,13 @@
 .teaching-skill-card .skill-icon {
   width: 50px;
   height: 50px;
-  background: #AF04041a;
+  background: #4CAF501a;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: #FF4500;
+  color: #4CAF50;
   flex-shrink: 0;
   transition: all 0.3s ease;
 }
@@ -287,7 +287,7 @@
 
 .skill-progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, #AF0404, #FF4500);
+  background: linear-gradient(90deg, #4CAF50, #156e18);
   border-radius: 4px;
   position: relative;
   transition: width 1s ease;
@@ -298,7 +298,7 @@
   position: absolute;
   right: 5px;
   top: -20px;
-  color: #AF0404;
+  color: #4CAF50;
   font-size: 0.8rem;
   font-weight: 600;
 }
@@ -306,13 +306,13 @@
 /* Hover effects */
 .teaching-skill-card:hover {
   transform: translateY(-5px);
-  border-color: #AF0404;
-  box-shadow: 0 10px 30px rgba(175, 4, 4, 0.15);
+  border-color: #4CAF50;
+  box-shadow: 0 10px 30px #4CAF5026;
 }
 
 .teaching-skill-card:hover .skill-icon {
   transform: rotate(10deg) scale(1.1);
-  background: rgba(175, 4, 4, 0.2);
+  background: #4CAF5033;
 }
 
 /* Stagger animation for teaching skills */

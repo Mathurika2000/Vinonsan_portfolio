@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import { 
   FaCode, 
   FaHtml5, 
-  FaCss3Alt, 
+  FaCss3, 
   FaJs, 
   FaReact, 
   FaNodeJs, 
@@ -18,109 +18,195 @@ import {
   FaBrain,
   FaClock,
   FaHandsHelping,
-  FaChartLine
+  FaChartLine,
+  FaServer,
+  FaJava,
+  FaLaptopCode,
+  FaAngular
 } from 'react-icons/fa'
 import { 
   SiMongodb,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
-  SiAdobexd,
-  SiAdobepremierepro,
-  SiAdobeaftereffects,
-  SiFigma,
-  SiCanva 
+  SiPostgresql,
+  SiMysql,
+  SiDjango,
+  SiFlask,
+  SiExpress,
+  SiLaravel,
+  SiSpringboot,
+  SiKotlin,
+  SiSwift,
+  SiPhp,
+  SiTypescript,
+  SiC,
+  SiCplusplus,
+  SiWordpress,
+  SiTailwindcss,
+  SiNextdotjs,
+ 
 } from 'react-icons/si'
 import './Skills.css'
 
 function Skills() {
-  const technicalSkills = [
-    { 
-      name: "HTML5/CSS3", 
-      level: 90, 
-      icon: <div className="icon-stack">
-        <FaHtml5 className="icon-html" />
-        
-      </div>
-    },
-    { 
-      name: "JavaScript", 
-      level: 85, 
-      icon: <FaJs className="icon-js" />
-    },
-    { 
-      name: "React.js", 
-      level: 85, 
-      icon: <FaReact className="icon-react" />
-    },
-    { 
-      name: "Bootstrap", 
-      level: 90, 
-      icon: <FaBootstrap className="icon-bootstrap" />
-    },
+  const backendskills = [
     { 
       name: "Node.js", 
-      level: 80, 
+      level: 85, 
       icon: <FaNodeJs className="icon-node" />
     },
     { 
-      name: "Python", 
+      name: "Express.js", 
+      level: 80, 
+      icon: <SiExpress className="icon-express" />
+    },
+    { 
+      name: "Django", 
+      level: 80, 
+      icon: <SiDjango className="icon-django" />
+    },
+    { 
+      name: "Flask", 
       level: 75, 
-      icon: <FaPython className="icon-python" />
+      icon: <SiFlask className="icon-flask" />
+    },
+    { 
+      name: "Laravel", 
+      level: 80, 
+      icon: <SiLaravel className="icon-laravel" />
     },
     { 
       name: "MongoDB", 
-      level: 75, 
+      level: 80, 
       icon: <SiMongodb className="icon-mongodb" />
+    },
+    { 
+      name: "MySQL", 
+      level: 85, 
+      icon: <SiMysql className="icon-mysql" />
+    },
+    { 
+      name: "PostgreSQL", 
+      level: 80, 
+      icon: <SiPostgresql className="icon-postgresql" />
     },
     { 
       name: "Git/GitHub", 
       level: 85, 
       icon: <FaGitAlt className="icon-git" />
+    },
+    { 
+      name: "Spring Boot", 
+      level: 75, 
+      icon: <SiSpringboot className="icon-springboot" />
     }
   ]
 
-  const graphicSkills = [
+  const coreLanguagesAndWebKits = [
     {
-      name: "Photoshop",
-      level: 85,
-      icon: <SiAdobephotoshop className="icon-photoshop" />
-    },
-    {
-      name: "Illustrator",
-      level: 80,
-      icon: <SiAdobeillustrator className="icon-illustrator" />
-    },
-    {
-      name: "Adobe XD",
+      name: "HTML5",
       level: 90,
-      icon: <SiAdobexd className="icon-xd" />
+      icon: <FaHtml5 className="icon-html" />
     },
     {
-      name: "Figma",
+      name: "CSS3",
       level: 85,
-      icon: <SiFigma className="icon-figma" />
+      icon: <FaCss3 className="icon-css" />
     },
     {
-      name: "Premiere Pro",
+      name: "JavaScript",
+      level: 85,
+      icon: <FaJs className="icon-js" />
+    },
+    {
+      name: "React.js",
+      level: 85,
+      icon: <FaReact className="icon-react" />
+    },
+    {
+      name: "Vue.js",
+      level: 80,
+      icon: <FaReact  className="icon-vue" />
+    },
+    {
+      name: "Angular",
       level: 75,
-      icon: <SiAdobepremierepro className="icon-premiere" />
+      icon: <FaAngular className="icon-angular" />
     },
     {
-      name: "After Effects",
-      level: 70,
-      icon: <SiAdobeaftereffects className="icon-aftereffects" />
+      name: "Next.js",
+      level: 80,
+      icon: <SiNextdotjs className="icon-nextjs" />
     },
     {
-      name: "Canva",
-      level: 95,
-      icon: <SiCanva className="icon-canva" />
+      name: "Bootstrap",
+      level: 90,
+      icon: <FaBootstrap className="icon-bootstrap" />
     },
     {
-      name: "Adobe CC",
+      name: "Tailwind CSS",
+      level: 80,
+      icon: <SiTailwindcss className="icon-tailwind" />
+    },
+    {
+      name: "WordPress",
       level: 85,
-      icon: <SiAdobexd className="icon-adobe" />
+      icon: <SiWordpress className="icon-wordpress" />
     }
-  ]
+  ];
+  
+
+  const programmingLanguages = [
+    {
+      name: "JavaScript",
+      level: 85,
+      icon: <FaJs className="icon-js" />
+    },
+    {
+      name: "Python",
+      level: 80,
+      icon: <FaPython className="icon-python" />
+    },
+    {
+      name: "Java",
+      level: 75,
+      icon: <FaJava  className="icon-java" />
+    },
+    {
+      name: "C++",
+      level: 75,
+      icon: <SiCplusplus className="icon-cplusplus" />
+    },
+    {
+      name: "C",
+      level: 70,
+      icon: <SiC className="icon-c" />
+    },
+    {
+      name: "C#",
+      level: 80,
+      icon: <SiC  className="icon-csharp" />
+    },
+    {
+      name: "TypeScript",
+      level: 85,
+      icon: <SiTypescript className="icon-typescript" />
+    },
+    {
+      name: "PHP",
+      level: 80,
+      icon: <SiPhp className="icon-php" />
+    },
+    {
+      name: "Swift",
+      level: 75,
+      icon: <SiSwift className="icon-swift" />
+    },
+    {
+      name: "Kotlin",
+      level: 70,
+      icon: <SiKotlin className="icon-kotlin" />
+    }
+  ];
+  
 
   const teachingSkills = [
     {
@@ -158,18 +244,6 @@ function Skills() {
       level: 87,
       icon: <FaClock />,
       description: "Efficient scheduling and lesson pacing"
-    },
-    {
-      name: "Individual Support",
-      level: 93,
-      icon: <FaHandsHelping />,
-      description: "Personalized attention to student needs"
-    },
-    {
-      name: "Technology Integration",
-      level: 85,
-      icon: <FaChalkboardTeacher />,
-      description: "Incorporating modern tools in teaching"
     }
   ]
 
@@ -179,13 +253,37 @@ function Skills() {
         <div className="section-title-wrapper">
           <h2 className="section-title">
             <div className="rotating-icon-wrapper">
-              <FaCode className="rotating-icon" />
+              <FaServer   className="rotating-icon" />
             </div>
-            Technical Skills
+            Backend Frameworks & Technologies
           </h2>
         </div>
         <div className="skills-grid">
-          {technicalSkills.map((skill, index) => (
+          {backendskills.map((skill, index) => (
+            <div key={index} className="skill-circle">
+              <div className="circle-progress" style={{ '--percentage': `${skill.level}%` }}>
+                <div className="inner-circle">
+                  <div className="skill-icon-wrapper">
+                    {skill.icon}
+                  </div>
+                  <span className="skill-name">{skill.name}</span>
+                  <span className="skill-percentage">{skill.level}%</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="section-title-wrapper">
+          <h2 className="section-title">
+            <div className="rotating-icon-wrapper">
+              <FaServer   className="rotating-icon" />
+            </div>
+            Backend Frameworks & Technologies
+          </h2>
+        </div>
+        <div className="skills-grid">
+          {coreLanguagesAndWebKits.map((skill, index) => (
             <div key={index} className="skill-circle">
               <div className="circle-progress" style={{ '--percentage': `${skill.level}%` }}>
                 <div className="inner-circle">
@@ -203,13 +301,13 @@ function Skills() {
         <div className="section-title-wrapper" style={{ marginTop: '5rem' }}>
           <h2 className="section-title">
             <div className="rotating-icon-wrapper">
-              <FaPaintBrush className="rotating-icon" />
+              <FaLaptopCode   className="rotating-icon" />
             </div>
-            Graphic Tools
+            Programming Languages & Expertise
           </h2>
         </div>
         <div className="skills-grid">
-          {graphicSkills.map((skill, index) => (
+          {programmingLanguages.map((skill, index) => (
             <div key={index} className="skill-circle">
               <div className="circle-progress" style={{ '--percentage': `${skill.level}%` }}>
                 <div className="inner-circle">

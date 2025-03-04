@@ -1,6 +1,6 @@
 .terms-section {
   padding: 8rem 0;
-  background: #1c1c1c;
+  background: #000;
   min-height: 100vh;
   position: relative;
 }
@@ -9,8 +9,8 @@
   position: fixed;
   top: 2rem;
   left: 2rem;
-  background: #FF63471a;
-  border: 1px solid #FF634733;
+  background: #4CAF501a;
+  border: 1px solid #156e1833;
   color: #EEEEEE;
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
@@ -23,7 +23,7 @@
 }
 
 .back-button:hover {
-  background: rgba(175, 4, 4, 0.2);
+  background: #4CAF5033;
   transform: translateX(-5px);
 }
 
@@ -43,7 +43,7 @@
 }
 
 .title-icon {
-  color: #FF6347;
+  color: #4CAF50;
   animation: rotate 4s linear infinite;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .last-updated {
-  color: #FF6347;
+  color: #4CAF50;
   font-size: 0.9rem;
   margin-bottom: 2rem;
   text-align: right;

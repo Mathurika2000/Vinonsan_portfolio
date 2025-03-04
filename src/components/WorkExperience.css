@@ -1,6 +1,6 @@
 .experience-section {
   padding: 8rem 0;
-  background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
+  background: linear-gradient(135deg, #000, #000);
   min-height: 100vh;
   position: relative;
   overflow: hidden;
@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(255, 69, 0, 0.1) 0%, transparent 50%);
+  background: radial-gradient(circle at 50% 50%, #4CAF501a 0%, transparent 50%);
   pointer-events: none;
 }
 
@@ -29,11 +29,11 @@
 }
 
 .section-title, .title-icon {
-  background: linear-gradient(45deg, #FF4500, #AF0404);
+  background: linear-gradient(45deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 2px 4px rgba(255, 69, 0, 0.2));
+  filter: drop-shadow(0 2px 4px #4CAF5033);
 }
 
 .title-icon {
@@ -61,13 +61,13 @@
 .timeline-icon {
   width: 80px;
   height: 80px;
-  background: rgba(255, 69, 0, 0.1);
+  background: #4CAF501a;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  color: #FF4500;
+  color: #4CAF50;
   position: relative;
   transition: all 0.3s ease;
   transform: rotate(-10deg);
@@ -78,7 +78,7 @@
   position: absolute;
   inset: -3px;
   border-radius: 23px;
-  background: linear-gradient(45deg, #FF4500, #AF0404);
+  background: linear-gradient(45deg, #4CAF50, #156e18);
   z-index: -1;
   opacity: 0.5;
 }
@@ -124,7 +124,7 @@
 
 .company-name {
   font-size: 1.2rem;
-  background: linear-gradient(45deg, #FF4500, #AF0404);
+  background: linear-gradient(45deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -141,7 +141,7 @@
 }
 
 .calendar-icon {
-  color: #FF4500;
+  color: #4CAF50;
 }
 
 .experience-description {
@@ -160,7 +160,7 @@
 .line-dot {
   width: 8px;
   height: 8px;
-  background: #FF4500;
+  background: #4CAF50;
   border-radius: 50%;
   animation: pulseDot 1.5s ease infinite;
 }
@@ -174,21 +174,21 @@
   top: 90px;
   bottom: -50px;
   width: 2px;
-  background: linear-gradient(to bottom, #FF4500 50%, transparent);
+  background: linear-gradient(to bottom, #4CAF50 50%, transparent);
 }
 
 .connector-icon {
   position: absolute;
   bottom: 0;
   left: -6px;
-  color: #FF4500;
+  color: #4CAF50;
   animation: slideDown 2s ease infinite;
 }
 
 /* Hover Effects */
 .timeline-item:hover .timeline-icon {
   transform: rotate(0deg) scale(1.1);
-  box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+  box-shadow: 0 0 20px #4CAF504d;
 }
 
 .timeline-item:hover .timeline-content {
@@ -298,7 +298,7 @@
   font-size: 2rem;
   text-align: center;
   margin-bottom: 3rem;
-  background: linear-gradient(45deg, #FF4500, #AF0404);
+  background: linear-gradient(45deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -322,7 +322,7 @@
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid rgba(255, 69, 0, 0.3);
+  border-bottom: 2px solid #4CAF504d;
 }
 
 .tools-list {
@@ -344,7 +344,7 @@
 
 .tool-icon {
   font-size: 1.2rem;
-  color: #FF4500;
+  color: #4CAF50;
 }
 
 .tool-name {
@@ -360,7 +360,7 @@
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(45deg, #FF4500, #AF0404);
+  background: linear-gradient(45deg, #4CAF50, #156e18);
   border-radius: 3px;
   position: relative;
   transition: width 1s ease-in-out;
@@ -430,7 +430,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: #FF4500;
+  color: #4CAF50;
   font-size: 1.5rem;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -438,7 +438,7 @@
 
 .tech-icon-wrapper:hover {
   transform: translateY(-3px);
-  color: #AF0404;
+  color: #4CAF50;
 }
 
 .tech-name {

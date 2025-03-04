@@ -3,13 +3,12 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { 
   FaCode, 
-  FaExternalLinkAlt, 
   FaFolder,
   FaGithub,
   FaLink,
   FaBullseye,
   FaLightbulb,
-  FaCheckCircle
+  FaCheckCircle,
 } from 'react-icons/fa'
 import { 
   SiExpress, 
@@ -19,7 +18,10 @@ import {
   SiPython,
   SiReact,
   SiNodedotjs,
-  SiDocker
+  SiDocker,
+  SiBootstrap,
+  SiFramer
+
 } from 'react-icons/si'
 import './Projects.css'
 
@@ -51,7 +53,7 @@ const Projects = () => {
       links: [
         {
           type: "github",
-          url: "https://github.com/yourusername/railway-safety",
+          url: "https://github.com/vinonsan9744/Techwizards-Implementaion2.git",
           icon: <FaGithub />,
           label: "Source Code"
         },
@@ -94,60 +96,69 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Poster & Logo Creation",
-      overview: "Creating stunning posters and logos for various clients using professional design tools.",
+      title: "Portfolio Management System",
+      overview: "A dynamic portfolio application using React.js for frontend and Node.js/Express.js for backend database connectivity with MongoDB. This portfolio allows users to add and update their current skills and qualifications over time, as well as share their projects.",
       keyPoints: [
-        "Brand identity development",
-        "Marketing material design",
-        "Visual communication",
-        "Client collaboration"
+        "Modern and responsive UI with React.js",
+        "Seamless backend integration using Node.js and Express.js",
+        "Database management for project details and user interactions",
+        "Authentication and user session handling",
+        "Easily update skills and qualifications"
       ],
       challenges: [
-        "Meeting diverse client requirements",
-        "Brand consistency across platforms",
-        "Deadline management"
+        "Efficient database querying and management",
+        "Ensuring smooth UI/UX across devices",
+        "Secure authentication and authorization",
+        "Scalability for continuous skill updates"
       ],
       technologies: [
-        { name: "Photoshop", icon: <FaCode /> },
-        { name: "Illustrator", icon: <FaCode /> },
-        { name: "Figma", icon: <FaCode /> }
+        { name: "React.js", icon: <SiReact /> },
+        { name: "Node.js", icon: <SiNodedotjs /> },
+        { name: "Express.js", icon: <SiExpress /> },
+        { name: "MongoDB", icon: <SiMongodb /> }
       ],
       links: [
         {
-          type: "external",
-          url: "https://www.behance.net/yourprofile",
-          icon: <FaExternalLinkAlt />,
-          label: "View Portfolio"
+          type: "github",
+          url: "https://github.com/yourusername/portfolio-project",
+          icon: <FaGithub />,
+          label: "Source Code"
         }
       ]
     },
     {
       id: 4,
-      title: "Dynamic Portfolio UI",
-      overview: "An intuitive user interface design for a dynamic portfolio platform using Figma.",
+      title: "Attractive Portfolio for Friends",
+      overview: "A visually appealing portfolio application using React.js with stunning animations and modern designs. This project is focused on the frontend experience to showcase the skills and projects of friends with interactive elements.",
       keyPoints: [
-        "Responsive design system",
-        "Interactive prototypes",
-        "User-centered approach",
-        "Modern aesthetics"
+        "Beautiful and engaging UI with animations",
+        "Smooth user experience with React.js transitions",
+        "Customizable themes and layouts",
+        "Interactive design for better user engagement"
       ],
       challenges: [
-        "Complex state management",
-        "Performance optimization",
-        "Cross-browser compatibility"
+        "Implementing high-performance animations",
+        "Ensuring responsiveness across different devices",
+        "Creating an intuitive and smooth UI/UX"
       ],
       technologies: [
-        { name: "Figma", icon: <FaCode /> }
+        { name: "React.js", icon: <SiReact /> },
+        { name: "Framer Motion", icon: <SiFramer /> },
+        { name: "Bootstrap", icon: <SiBootstrap /> }
       ],
       links: [
         {
-          type: "external",
-          url: "https://www.figma.com/file/yourfigmalink",
-          icon: <FaExternalLinkAlt />,
-          label: "View Design"
+          type: "github",
+          url: "https://github.com/yourusername/attractive-portfolio",
+          icon: <FaGithub />,
+          label: "Source Code"
         }
       ]
     }
+
+
+
+
   ];
   
   return (
@@ -183,15 +194,15 @@ const Projects = () => {
 
               <div className="project-content">
                 <div className="content-section">
-                  <h4 className="section-title">
+                  <h4 className="section-title-11" style={{ color: '#EEEEEE', color: '#EEEEEE !important' }}>
                     <FaBullseye className="section-icon" />
-                    Overview
+                    Overview 
                   </h4>
                   <p className="project-overview">{project.overview}</p>
                 </div>
 
                 <div className="content-section">
-                  <h4 className="section-title">
+                  <h4 className="section-title-11" style={{ color: '#EEEEEE', color: '#EEEEEE !important' }}>
                     <FaLightbulb className="section-icon" />
                     Key Features
                   </h4>
@@ -206,7 +217,7 @@ const Projects = () => {
                 </div>
 
                 <div className="content-section">
-                  <h4 className="section-title">
+                  <h4 className="section-title-11" style={{ color: '#EEEEEE', color: '#EEEEEE !important' }}>
                     <FaCode className="section-icon" />
                     Technical Challenges
                   </h4>

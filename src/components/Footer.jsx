@@ -47,7 +47,7 @@ function Footer() {
     {
       id: 3,
       icon: <FaFacebook />,
-      url: 'https://www.facebook.com/share/18ggvQriGm//',
+      url: 'https://www.facebook.com/vinonsan.vino.7',
       label: 'Facebook'
     },
     {

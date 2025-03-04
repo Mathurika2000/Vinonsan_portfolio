@@ -1,6 +1,6 @@
 .contact-section {
   padding: 8rem 0;
-  background: #1c1c1c;
+  background: #000;
   min-height: 100vh;
   position: relative;
 }
@@ -18,7 +18,7 @@
 }
 
 .title-icon {
-  color: #AF0404;
+  color: #4CAF50;
   animation: rotate 4s linear infinite;
 }
 
@@ -35,7 +35,7 @@
   transform: translateX(-50%);
   width: 150px;
   height: 4px;
-  background: linear-gradient(90deg, transparent, #AF0404, transparent);
+  background: linear-gradient(90deg, transparent, #4CAF50, transparent);
 }
 
 .contact-content {
@@ -59,8 +59,8 @@
 }
 
 .contact-item {
-  background: rgba(238, 238, 238, 0.03);
-  border: 1px solid rgba(175, 4, 4, 0.2);
+  background: #eeeeee08;
+  border: 1px solid #4CAF5033;
   border-radius: 15px;
   padding: 2rem;
   display: flex;
@@ -72,13 +72,13 @@
 .contact-icon {
   width: 50px;
   height: 50px;
-  background: rgba(175, 4, 4, 0.1);
+  background: #4CAF501a;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: #FF4500;
+  color: #4CAF50;
   transition: all 0.3s ease;
 }
 
@@ -106,9 +106,9 @@
 /* Hover Effects */
 .contact-item:hover {
   transform: translateY(-5px);
-  border-color: #FF4500;
-  box-shadow: 0 10px 30px #FF450026;
-  background: #AF04040d;
+  border-color: #4CAF50;
+  box-shadow: 0 10px 30px #4CAF5026;
+  background: #4CAF500d;
 }
 
 .contact-item:hover .contact-icon {
@@ -117,7 +117,7 @@
 }
 
 .contact-details a:hover {
-  color: #FF4500;
+  color: #4CAF50;
   opacity: 1;
 }
 
@@ -194,8 +194,8 @@
 }
 
 .contact-form-container {
-  background: rgba(238, 238, 238, 0.03);
-  border: 1px solid #FF450033;
+  background: #eeeeee08;
+  border: 1px solid #4CAF5033;
   border-radius: 15px;
   padding: 2rem;
   width: 100%;
@@ -215,8 +215,8 @@
 }
 
 .contact-form .form-control {
-  background: #FF45000d;
-  border: 1px solid #AF040433;
+  background: #4CAF500d;
+  border: 1px solid #4CAF5033;
   border-radius: 8px;
   padding: 0.8rem 1rem;
   color: #EEEEEE;
@@ -225,7 +225,7 @@
 
 .contact-form .form-control:focus {
   background: rgba(238, 238, 238, 0.08);
-  border-color: #FF4500;
+  border-color: #4CAF50;
   box-shadow: 0 0 15px #AF040433;
   outline: none;
 }
@@ -235,7 +235,7 @@
 }
 
 .submit-button {
-  background: #FF4500;
+  background: #4CAF50;
   color: #EEEEEE;
   border: none;
   border-radius: 8px;
@@ -250,14 +250,14 @@
 }
 
 .submit-button:hover {
-  background: #FF4500;
+  background: #4CAF50;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px #AF04044d;
+  box-shadow: 0 5px 15px #4CAF504d;
 }
 
 .contact-form-container:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(175, 4, 4, 0.15);
+  box-shadow: 0 10px 30px #4CAF5026;
 }
 
 /* Update grid layout for contact info */

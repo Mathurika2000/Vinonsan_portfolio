@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #1c1c1c;
+  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
   position: absolute;
   width: 80px;
   height: 80px;
-  background: #FF4500;
+  background: #4CAF50;
   animation: cube 25s linear infinite;
   opacity: 0.1;
 }
@@ -79,9 +79,9 @@
 .loader-logo {
   font-size: 5rem;
   font-weight: 800;
-  color: #FF4500;
+  color: #4CAF50;
   animation: pulse 2s ease-in-out infinite;
-  text-shadow: 0 0 20px #AF040480;
+  text-shadow: 0 0 20px #4CAF5080;
 }
 
 .loader-text {
@@ -106,7 +106,7 @@
 .progress-bar {
   width: 200px;
   height: 3px;
-  background: rgba(238, 238, 238, 0.1);
+  background: #0000001a;
   border-radius: 3px;
   overflow: hidden;
 }
@@ -114,7 +114,7 @@
 .progress-fill {
   width: 100%;
   height: 100%;
-  background: #FF4500;
+  background: #4CAF50;
   animation: fill 3s ease-in-out;
   transform-origin: left;
 }
@@ -154,7 +154,7 @@
   left: 50%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, #FF450033 0%, transparent 70%);
+  background: radial-gradient(circle, #4CAF5033 0%, transparent 70%);
   transform: translate(-50%, -50%);
   animation: glow 2s ease-in-out infinite;
 }

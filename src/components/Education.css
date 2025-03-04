@@ -17,7 +17,7 @@
   background: linear-gradient(135deg, #4CAF50, #156e18);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color:  transparent;
 }
 
 .title-icon {
@@ -61,7 +61,7 @@
 .education-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, hsla(0, 0%, 13%, 0.102), #4CAF501a);
+  background: linear-gradient(135deg, #4CAF501a, #4CAF501a);
   border: 3px solid #4CAF50;
   border-radius: 50%;
   display: flex;

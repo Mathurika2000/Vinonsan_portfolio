@@ -19,18 +19,27 @@ import {
   FaGithub,
   FaDatabase,
   FaPhp,
-  FaGoogle
+  FaGoogle,
+  FaMousePointer,
+  FaRobot,
+  FaLaptopCode
 } from 'react-icons/fa'
 import {
   SiTensorflow,
   SiPostgresql,
   SiMongodb,
   SiExpress,
-  SiOpenai,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
-  SiFigma,
-  SiJupyter
+  SiZoom , 
+  SiReact, 
+  SiNodedotjs,
+  SiYoutube,
+  SiGoogleclassroom,
+  SiJavascript,
+  SiCss3,
+  SiHtml5,
+  SiPhp,
+  SiWordpress
+
 } from 'react-icons/si'
 import './WorkExperience.css'
 
@@ -115,30 +124,52 @@ function WorkExperience() {
     },
     {
       id: 3,
-      icon: <FaPalette />,
-      title: "Freelance Graphic Designer",
+      icon: <FaCode />,
+      title: "MERN Stack Developer",
       company: "Self-Employed",
       duration: "2024 – Present",
-      description: "Creating visually striking and professional designs for diverse clients, with an emphasis on brand identity, digital media, and marketing materials.",
+      description: "Developing dynamic, scalable, and high-performance web applications using the MERN stack. Specializing in full-stack development, RESTful API creation, authentication, and database management. Passionate about building intuitive UI/UX and optimizing backend performance for seamless user experiences.",
       technologies: [
-        { name: "Photoshop", icon: <SiAdobephotoshop /> },
-        { name: "Illustrator", icon: <SiAdobeillustrator /> },
-        { name: "Figma", icon: <SiFigma /> }
+        { name: "MongoDB", icon: <SiMongodb /> },
+        { name: "Express.js", icon: <SiExpress /> },
+        { name: "React.js", icon: <SiReact /> },
+        { name: "Node.js", icon: <SiNodedotjs /> }
       ]
     },
+    
     {
       id: 4,
       icon: <FaChalkboardTeacher />,
-      title: "Teaching",
-      company: "Grades 6 to 11",
-      duration: "August 2024 – Present",
-      description: "Empowering students by delivering engaging and interactive lessons in computer science and mathematics.",
+      title: "Online Educator",
+      company: "Self-Employed | Grades 6 to 11",
+      duration: "August 2019 – Present",
+      description: "Teaching fundamental concepts in science and mathematics through interactive online sessions. Utilizing platforms like Zoom and YouTube to create engaging, easy-to-understand lessons for students of varying learning levels.",
       technologies: [
-        { name: "Python", icon: <FaPython /> },
-        { name: "Jupyter", icon: <SiJupyter /> },
-        { name: "OpenAI", icon: <SiOpenai /> }
+        { name: "Zoom", icon: <SiZoom /> },
+        { name: "YouTube", icon: <SiYoutube /> },
+        { name: "Google Classroom", icon: <SiGoogleclassroom /> }
+      ]
+    },
+    {
+      id: 5,
+      icon: <FaLaptopCode />,
+      title: "Junior Web Developer",
+      company: "Altitude 1 Pvt Ltd",
+      duration: "December 2024 – Present",
+      description: "Developing and maintaining dynamic websites and web applications using a mix of modern and traditional web technologies. Handling both frontend and backend tasks, ensuring optimized performance and responsive design. Utilizing AI-powered tools to streamline development workflows and enhance efficiency.",
+      technologies: [
+        { name: "WordPress", icon: <SiWordpress /> },
+        { name: "PHP", icon: <SiPhp /> },
+        { name: "HTML", icon: <SiHtml5 /> },
+        { name: "CSS", icon: <SiCss3 /> },
+        { name: "JavaScript", icon: <SiJavascript /> },
+        { name: "React.js", icon: <SiReact /> },
+        { name: "V0 AI", icon: <FaRobot  /> },
+        { name: "Cursor", icon: <FaMousePointer  /> }
       ]
     }
+    
+    
   ]
 
   return (
