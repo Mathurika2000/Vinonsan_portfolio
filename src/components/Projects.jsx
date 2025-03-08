@@ -194,7 +194,7 @@ const Projects = () => {
 
               <div className="project-content">
                 <div className="content-section">
-                  <h4 className="section-title-11" style={{ color: '#EEEEEE', color: '#EEEEEE !important' }}>
+                  <h4 className="section-title-11" style={{ color: '#EEEEEE' }}>
                     <FaBullseye className="section-icon" />
                     Overview 
                   </h4>
@@ -202,7 +202,7 @@ const Projects = () => {
                 </div>
 
                 <div className="content-section">
-                  <h4 className="section-title-11" style={{ color: '#EEEEEE', color: '#EEEEEE !important' }}>
+                  <h4 className="section-title-11" style={{ color: '#EEEEEE'}}>
                     <FaLightbulb className="section-icon" />
                     Key Features
                   </h4>
@@ -217,7 +217,7 @@ const Projects = () => {
                 </div>
 
                 <div className="content-section">
-                  <h4 className="section-title-11" style={{ color: '#EEEEEE', color: '#EEEEEE !important' }}>
+                  <h4 className="section-title-11" style={{ color: '#EEEEEE'}}>
                     <FaCode className="section-icon" />
                     Technical Challenges
                   </h4>
